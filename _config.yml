@@ -24,8 +24,8 @@ description: Zhao Xiaofei's personal web page.
 # List of links in the navigation bar
 navbar-links:
   About Me: ""
-  News: "news"
-  Blog: "https://i.xzhao.moe"
+  Notes: "notes"
+  # Blog: "https://i.xzhao.moe"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
@@ -95,10 +95,10 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -151,9 +151,9 @@ title-separator: "-"
 timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
-permalink: /news/:year-:month-:day-:title/
+permalink: /notes/:year-:month-:day-:title/
 paginate: 5
-paginate_path: "/news/page:num/"
+paginate_path: "/notes/page:num/"
 
 kramdown:
   input: GFM
