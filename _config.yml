@@ -17,14 +17,15 @@ baseurl: ""
 title: ZHAO Xiaofei
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Zhao Xiaofei's personal web page.
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About Me: ""
-  Blog: "blog"
+  News: "news"
+  Blog: "https://i.xzhao.moe"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
@@ -150,9 +151,9 @@ title-separator: "-"
 timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /news/:year-:month-:day-:title/
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 
 kramdown:
   input: GFM
