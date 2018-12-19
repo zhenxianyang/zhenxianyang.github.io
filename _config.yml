@@ -14,17 +14,16 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: ZHAO Xiaofei
+title: WANG Dengquan
 
 # Short description of your site
-description: Zhao Xiaofei's personal web page.
+description: Wang Dengquan's personal web page.
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: ""
-  Notes: "notes"
+  # About Me: ""
   # Blog: "https://i.xzhao.moe"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -66,7 +65,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Zhao Xiaofei
+  name: Wang Dengquan
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -76,7 +75,7 @@ social-network-links:
   rss: true
   # email: "someone@example.com"
   # facebook: daattali
-  github: essethon
+  # github: essethon
   # keybase: essethon
   # twitter: daattali
 #  reddit: yourname
@@ -110,7 +109,7 @@ share-links-active:
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-129699594-1"
+# google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
@@ -151,9 +150,9 @@ title-separator: "-"
 timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
-permalink: /notes/:year-:month-:day-:title/
+permalink: /:year-:month-:day-:title/
 paginate: 5
-paginate_path: "/notes/page:num/"
+paginate_path: "/page:num/"
 
 kramdown:
   input: GFM
